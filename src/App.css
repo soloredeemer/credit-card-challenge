@@ -1,0 +1,99 @@
+.flexIt{
+    display: flex;
+
+}
+
+#left{
+ height: 66em;
+    background-image: url(./assets/bg-main-desktop.png);
+    width: 35em;
+ background-repeat: no-repeat;
+ background-size: cover;
+    
+}
+#right{
+height: 100%;
+width: 66%;
+}
+
+#card1{
+margin-top: 10em;
+margin-left: -20em;
+
+
+}
+#card2{
+    margin-top: 28em;
+    margin-left: -20em;
+    }
+
+    body{
+        background-color: rgb(247, 244, 241);
+    }
+
+    #mainForm{
+        height: 35em;
+        width: 40em;
+        margin-left: 10em;
+        
+        margin-top: 15em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #twoDg{
+        width: 3em;
+        margin-left: .5em;
+        border-radius: .58em;
+        border: .5px solid rgb(53, 17, 99);
+    }
+
+    #cvv{
+width: 6em;
+margin-left: .5em;
+border-radius: .58em;
+border: .5px solid rgb(53, 17, 99);
+
+    }
+    .confirm{
+        background-image: url(./assets/bg-main-desktop.png);
+        width: 21em;
+        height: 3em;
+        border-radius: .58em;
+        color: aliceblue;
+      
+    }
+.radius{
+    border-radius: .58em;
+    width: 20em;
+    height: 2.5em;
+    border: .5px solid rgb(53, 17, 99);
+}
+#circle{
+     height: 5em;
+     width: 5em; 
+    border-radius: 50%; 
+    background-image: url(./assets/icon-complete.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h6{
+    color: gray;
+}
+
+#cardtext{
+    margin-top: -4em;
+    color:aliceblue;
+    margin-left: 2em;
+
+}
+h5{
+    color: aliceblue;
+
+}
+p{
+    color: red;
+}
